@@ -1,0 +1,3 @@
+# bean
+
+about java bean
