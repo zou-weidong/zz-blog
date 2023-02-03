@@ -17,7 +17,8 @@ module.exports = {
             { text: 'Java', link: '/java/' },
             { text: 'Go', link: '/go/' },
             { text: 'Linux', link: '/linux/' },
-            { text: 'Kubernetes', link: '/kubernetes/' }
+            { text: 'Kubernetes', link: '/kubernetes/' },
+            { text: 'Network', link: '/network/' }
         ],
         sidebar: {
             "/java/": [
@@ -104,6 +105,16 @@ module.exports = {
                         ["/kubernetes/architecture/", "AA"],
                     ]
                 },
+            ],
+            "/network/": [
+                {
+                    title: '',
+                    collapsable: false,
+                    sidebarDepth: 3,
+                    children: [
+                        ["/network/", "网络"],
+                    ]
+                }
             ]
 
         },
